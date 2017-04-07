@@ -21,9 +21,12 @@
   },
   "homepage": "https://github.com/epfl-dojo/telegram-coreos-update#readme",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "node-telegram-bot-api": "^0.27.0",
     "nodemon": "^1.11.0",
     "request": "^2.81.0",
-    "semver": "^5.3.0"
+    "request-promise": "^4.2.0",
+    "semver": "^5.3.0",
+    "telegraf": "^3.6.7"
   }
 }
