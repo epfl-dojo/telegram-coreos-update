@@ -4,6 +4,7 @@
   "description": "A telegram bot which send CoreOS updates",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,8 @@
   "homepage": "https://github.com/epfl-dojo/telegram-coreos-update#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "extra": "^0.2.1",
+    "markup": "0.0.4",
     "node-telegram-bot-api": "^0.27.0",
     "nodemon": "^1.11.0",
     "properties-parser": "^0.3.1",
