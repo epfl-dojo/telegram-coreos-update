@@ -24,6 +24,7 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "extra": "^0.2.1",
+    "telegraf-command-parts": "*",
     "markup": "0.0.4",
     "node-telegram-bot-api": "^0.27.0",
     "nodemon": "^1.11.0",
